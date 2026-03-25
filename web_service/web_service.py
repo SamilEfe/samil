@@ -1,7 +1,7 @@
 from flask import Flask, render_template_string, request, redirect
 import requests
 app = Flask(__name__)
-API_URL = "srv-d71sm3vgi27c73fn7npg"
+API_URL = "https://samil-1.onrender.com"
 HTML = """
 <!doctype html>
 <html>
